@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script>
+	var obj = {};
+	var a = Symbol("a");
+	var b = Symbol.for("b");
+	obj[a] = "localSymbol";
+	obj[b] = "globalSymbol";
+	var objectSymbols = Object.getOwnPropertySymbols(obj);
+	console.log(objectSymbols.length);
+	</script>
+</head>
+<body>
+	Object.getOwnPropertySymbols(obj) 方法会返回一个数组，该数组包含了指定对象自身的（非继承的）所有 symbol 属性键。
+	obj
+	任意一个对象
+</body>
+</html>

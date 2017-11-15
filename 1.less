@@ -1,0 +1,61 @@
+@ca:red;
+@cc:heavd;
+.min(){width:10px;}
+.m(@i){width:@i;}
+.n(@a:10px){width:@a;}
+.i(@a:1px,@b:solid,@c:gray){
+	border:@arguments;
+}
+h1{color:@ca;.n();.i()}
+div{color:@ca;.m(10px)}
+.@{cc} .long{font-size:10px;.min()}
+div{h1{width:10px;ul{height:10px;li{font-size:10px;}}}}
+.to(@_,@s:10px,@d:red){
+	width:0;height:0;border-top:@s solid transparent;
+	border-bottom:@s solid transparent;
+	border-left:@s solid transparent;
+	border-right:@s solid transparent; 
+}
+.to(top,@s:10px,@d:red){
+	border-bottom:@s solid @d;
+}
+.to(bottom,@s:10px,@d:red){
+	border-top:@s solid @d;
+}
+.to(left,@s:10px,@d:red){
+	border-right:@s solid @d;
+}
+.to(right,@s:10px,@d:red){
+	border-left:@s solid @d;
+}
+h2{.to(left)}
+.link{
+	&_1{color:#123;}
+	&:hover{color:#aaa;}
+	&>&{color:yellow;}
+	&+&{color:red;};
+	& &{color:green;};
+	&&{color:gray;};
+	&, &ink{color:orange;}
+	a{&{color:#123;};color:#233;
+		&_2{color:black;}}
+}
+.loop(@e) when (@e>0){
+	.loop((@e - 1));
+	&:nth-child(@{e}){
+	width: (10px * @e);}
+}
+div{
+	div{
+	.loop(5);
+}}
+.mii(){box-shadow+:2px 2px 2px red;}
+div{.mii();
+box-shadow+:3px 3px 3px white;}
+.mm(){background+_:red;}
+div{.mm();background+_:url(i.html);}
+h6{color:saturate(#80ff00, 20%)}
+.ll(@r)when(isnumber(@r)){
+	width:100px;
+}
+div{.ll(x)}

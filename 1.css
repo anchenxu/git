@@ -1,0 +1,84 @@
+h1 {
+  color: #ff0000;
+  width: 10px;
+  border: 1px solid #808080;
+}
+div {
+  color: #ff0000;
+  width: 10px;
+}
+.heavd .long {
+  font-size: 10px;
+  width: 10px;
+}
+div h1 {
+  width: 10px;
+}
+div h1 ul {
+  height: 10px;
+}
+div h1 ul li {
+  font-size: 10px;
+}
+h2 {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-right: 10px solid #ff0000;
+}
+.link_1 {
+  color: #123;
+}
+.link:hover {
+  color: #aaa;
+}
+.link > .link {
+  color: yellow;
+}
+.link + .link {
+  color: red;
+}
+.link .link {
+  color: green;
+}
+.link.link {
+  color: gray;
+}
+.link,
+.linkink {
+  color: orange;
+}
+.link a {
+  color: #123;
+  color: #233;
+}
+.link a_2 {
+  color: black;
+}
+div div:nth-child( 1) {
+  width: 10px;
+}
+div div:nth-child( 2) {
+  width: 20px;
+}
+div div:nth-child( 3) {
+  width: 30px;
+}
+div div:nth-child( 4) {
+  width: 40px;
+}
+div div:nth-child( 5) {
+  width: 50px;
+}
+div {
+  box-shadow: 2px 2px 2px red, 3px 3px 3px white;
+}
+div {
+  background: red url(i.html);
+}
+h6 {
+  color: #80ff00;
+}

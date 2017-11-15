@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+ul {
+  width: 1090px;
+  height: 381px;
+  background: #f4f4f4;
+  padding: 15px 10px 5px;
+  margin: auto;
+}
+ul li {
+  width: 257px;
+  float: left;
+  background: #ffffff;
+  margin-right: 20px;
+  position: relative;
+}
+ul li:last-child {
+  margin: 0;
+}
+ul li img {
+  width: 245px;
+}
+ul li .div {
+  display: inline-block;
+  color: #d60523;
+  border: 1px solid #D60523;
+  padding: 5px 10px;
+  position: absolute;
+  left: 10px;
+  top: 222px;
+  font-weight: bold;
+  font-size: 12px;
+}
+ul li h6 {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin: 10px;
+}
+ul li h6 div {
+  color: #d60523;
+  display: inline;
+}
+ul li p {
+  font-size: 16px;
+  padding-left: 10px;
+}
+ul li s {
+  margin: 10px;
+  display: inline-block;
+  width: 80px;
+  height: 12px;
+  border-radius: 5px;
+  border: 1px solid #FFC7B7;
+}
+ul li s i {
+  width: 65px;
+  background: #FFC7B7;
+  display: block;
+  height: 100%;
+}
+ul li span {
+  font-size: 14px;
+  color: #d60523;
+  top: -12px;
+  position: relative;
+}
+ul li b {
+  display: inline-block;
+  width: 163.33333333px;
+  height: 40px;
+  background: #d60523;
+  color: #ffffff;
+  line-height: 40px;
+  font-size: 28px;
+  position: relative;
+  top: 5px;
+}
+ul li b span {
+  display: inline-block;
+  color: #ffffff;
+  padding-left: 10px;
+  position: relative;
+  top: 0px;
+  padding-right: 5px;
+}
+ul u {
+  width: 79.66666667px;
+  display: inline-block;
+  font-size: 15px;
+  color: #d60523;
+  height: 38px;
+  line-height: 38px;
+  text-align: center;
+  border: 1px solid #D60523;
+}

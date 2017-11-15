@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script>
+	var obj = { foo: "bar", baz: 42 }; 
+	var map = new Map(Object.entries(obj));
+	console.log(map); 
+	</script>
+</head>
+<body>
+	Object.entries(obj)方法返回一个给定对象自身可枚举属性的键值对数组，其排列与使用 for...in 循环遍历该对象时返回的顺序一致（区别在于 for-in 循环也枚举原型链中的属性）。
+	obj
+	可以返回其可枚举属性的键值对的对象。
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script>
+	var proto = {};
+	var obj = Object.create(proto);
+	console.log(Object.getPrototypeOf(obj) === proto;);
+	</script>
+</head>
+<body>
+	Object.getPrototypeOf(obj) 方法返回指定对象的原型（内部[[Prototype]]属性的值）。
+	obj
+	要返回其原型的对象。
+</body>
+</html>

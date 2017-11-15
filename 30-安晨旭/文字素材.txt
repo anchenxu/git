@@ -1,0 +1,28 @@
+﻿江山老师 10:38:33 (多人发送)
+##String补充
+
+- fromCharCode
+- fromCodePoint
+- endsWith
+- startWith
+- includes
+- trim
+
+##Math
+- cbrt
+- fround
+- hypot
+- imul
+- 各种log
+- 各种正弦余弦 ，双曲正弦余弦
+- pow
+- sign
+- trunc
+
+##Number
+- isFinite()
+- isInteger()
+- isNaN()
+- isSafeInteger()
+- parseInt --- 前缀字母NaN, 后缀字母可以
+- toExponential

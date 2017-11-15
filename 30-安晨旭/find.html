@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script>
+	var inventory = [
+	    {name: 'apples', quantity: 2},
+	    {name: 'bananas', quantity: 0},
+	    {name: 'cherries', quantity: 5}
+	];
+	function findCherries(fruit) { 
+	    return fruit.name === 'cherries';
+	}
+	console.log(inventory.find(findCherries));
+	</script>
+</head>
+<body>
+	find(callback[, thisArg]) 方法返回数组中满足提供的测试函数的第一个元素的值。否则返回 undefined。
+	callback
+	在数组每一项上执行的函数，接收 3 个参数：
+	element
+	当前遍历到的元素。
+	index
+	当前遍历到的索引。
+	array
+	数组本身。
+	thisArg 可选
+	可选，指定 callback 的 this 参数。
+</body>
+</html>

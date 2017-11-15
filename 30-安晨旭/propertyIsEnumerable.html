@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script>
+	var o = {};
+	var a = [];
+	o.prop = 'is enumerable';
+	a[0] = 'is enumerable';
+	console.log(o.propertyIsEnumerable('prop')); 
+	console.log(a.propertyIsEnumerable(0));
+	</script>
+</head>
+<body>
+	propertyIsEnumerable(prop) 方法返回一个布尔值，表明指定的属性名是否是当前对象可枚举的自身属性。
+	prop
+	需要测试的属性名。
+</body>
+</html>
